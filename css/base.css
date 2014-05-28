@@ -1,13 +1,5 @@
-.filter {
-  background: transparent;
-  width: 268px;
-  padding: 5px;
-  font-size: 16px;
-  line-height: 1;
-  border: 1 solid #e9c74c;
-  border-radius: 0;
-  height: 34px;
-  -webkit-appearance: none;
+article {
+  width: 75%;
 }
 
 header {
@@ -16,16 +8,46 @@ header {
   border-bottom: .2em solid #51b5af;
 }
 
+.filter {
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: right;
+    padding-left: 1em;
+    background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
+    /* dropdown_arrow.png is a 31x28 image */
+}
+
+.flex-filter h4 {
+  vertical-align: bottom;
+  margin: 0;
+  color: #14bbb1;
+}
+
+select {
+    border:0;
+    background:transparent;
+    height:26px;
+    border:2px solid #14bbb1;
+    float: right;
+    width:150px;
+    -webkit-appearance: none;
+}
+
 .flex-main {
   display: flex;
-  flex-flow: column nowrap;
-  margin: 0 10em;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
 }
 
 .flex-filter {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  padding: 3em 0 1em 0;
+  border-bottom: 1px solid #b8babc;
+  width: 100%;
 }
 
 .hero {
@@ -54,13 +76,14 @@ header {
   display: flex;
   align-content: center;
   flex-flow: row wrap;
+  flex-align: center;
   justify-content: space-between;
   padding-right: .5em;
 }
 
 .nav a {
   text-decoration: none;
-  font-size: 1.618em;
+  font-size: 1em;
 }
 
 .search {
