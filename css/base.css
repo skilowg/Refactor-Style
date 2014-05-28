@@ -8,11 +8,15 @@ header {
   border-bottom: .2em solid #51b5af;
 }
 
+.filter select {
+  padding-left: 1em ;
+  font-family: Questrial;
+}
+
 .filter {
     overflow: hidden;
     vertical-align: middle;
     text-align: right;
-    padding-left: 1em;
     background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
     /* dropdown_arrow.png is a 31x28 image */
 }
@@ -46,6 +50,7 @@ select {
   flex-flow: row wrap;
   align-items: center;
   padding: 3em 0 1em 0;
+  justify-content: space-between;
   border-bottom: 1px solid #b8babc;
   width: 100%;
 }
@@ -93,7 +98,7 @@ select {
   background: none;
   border-radius: 0;
   border: transparent;
-  border-bottom: 3px solid white;
+  border-bottom: 2px solid white;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 1em;
