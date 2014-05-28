@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 article {
   width: 75%;
 }
@@ -6,6 +10,22 @@ header {
   background-color: #3c4a5b;
   height: 3.72em;
   border-bottom: .2em solid #51b5af;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: #3c4a5b;
+}
+
+.minheight {
+ min-height: 30%;
+}
+
+.minheight:after {
+  content: "";
+  display: block;
 }
 
 .flex-main {

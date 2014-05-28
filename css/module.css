@@ -35,6 +35,29 @@ select {
 
 }
 
+.flex-posttitle {
+  color: #14bbb1;
+  padding: 1em;
+}
+
+.flex-posttitle a {
+  color: #93d041;
+}
+
+.language-tag {
+  background-color: #93d041;
+  border-radius: .1em;
+}
+
+.flex-posttitle .language-tag {
+  color: white;
+  font-size: 10pt;
+  text-decoration: none;
+  padding: .2em;
+}
+
+/*This is the voting module--------------*/
+
 .flex-vote {
   display: flex;
   flex-direction: column;
@@ -42,13 +65,24 @@ select {
   align-items: center;
   width: 6em;
   background-color: #f9f9f9;
+  min-width: 4em;
 }
 
-.flex-posttitle {
-  color: #14bbb1;
-  padding-left: 1em;
+.voteup {
+  background: url("../Assets/svg/up_vote.svg") no-repeat;
+  width: 2em;
+  height: 1em;
+  margin: .1em 0;
+
 }
 
-.flex-posttitle a {
-  color: #93d041;
+.votedown {
+  background: url("../Assets/svg/down_vote.svg") no-repeat;
+  width: 2em;
+  height: 1em;
+  margin: .1em 0;
+}
+
+.votecounter {
+  text-align: center;
 }
