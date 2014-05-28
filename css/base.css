@@ -8,41 +8,11 @@ header {
   border-bottom: .2em solid #51b5af;
 }
 
-.filter select {
-  padding-left: 1em ;
-  font-family: Questrial;
-}
-
-.filter {
-    overflow: hidden;
-    vertical-align: middle;
-    text-align: right;
-    background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
-    /* dropdown_arrow.png is a 31x28 image */
-}
-
-.flex-filter h4 {
-  vertical-align: bottom;
-  margin: 0;
-  color: #14bbb1;
-}
-
-select {
-    border:0;
-    background:transparent;
-    height:26px;
-    border:2px solid #14bbb1;
-    float: right;
-    width:150px;
-    -webkit-appearance: none;
-}
-
 .flex-main {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
   align-content: center;
-  text-align: center;
 }
 
 .flex-filter {

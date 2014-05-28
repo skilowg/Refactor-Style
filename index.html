@@ -4,9 +4,9 @@
   <title></title>
   <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/module.css">
   <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/base.css">
-  <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/base.css">
+  <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/layout.css">
   <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/typography.css">
 </head>
 <body>
@@ -47,26 +47,38 @@
           </select>
         </div>
       </section>
-      <section class="refactorpost">
-        <div>
-          <a href="#" class="voteup"></a>
-          <span class="votecounter"></span>
-          <a href="#" class="votedown"></a>
-        </div>
-        <a href="#"><h3>User generated refactor name</h3></a>
-        <h4>Description pulled from user comment</h4>
-        <a href="#" class="htmltag"></a>
-      </section>
-      <section class="refactorpost">
-        <div>
-          <a href="#" class="voteup"></a>
-          <span class="votecounter"></span>
-          <a href="#" class="votedown"></a>
-        </div>
-        <a href="#"><h3>User generated refactor name</h3></a>
-        <h4>Description pulled from user comment</h4>
-        <a href="#" class="htmltag"></a>
-      </section>
+
+
+
+
+
+
+      <div class="flex-postcontainer">
+        <section class="refactorpost">
+          <div class="flex-vote">
+            <a href="#" class="voteup">Up</a>
+            <span class="votecounter">Count</span>
+            <a href="#" class="votedown">Down</a>
+          </div>
+          <div class="flex-posttitle">
+            <a href="#"><h3>User generated refactor name</h3></a>
+            <h4>Description pulled from user comment</h4>
+            <a href="#" class="htmltag"></a>
+          </div>
+        </section>
+        <section class="refactorpost">
+          <div class="flex-vote">
+            <a href="#" class="voteup">Up</a>
+            <span class="votecounter">Count</span>
+            <a href="#" class="votedown">Down</a>
+          </div>
+          <div class="flex-posttitle">
+            <a href="#"><h3>User generated refactor name</h3></a>
+            <h4>Description pulled from user comment</h4>
+            <a href="#" class="htmltag"></a>
+          </div>
+        </section>
+      </div>
     </article>
   </main>
   <footer>

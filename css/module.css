@@ -1,0 +1,54 @@
+.filter {
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: right;
+    background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
+    /* dropdown_arrow.png is a 31x28 image */
+}
+
+.flex-filter h4 {
+  vertical-align: bottom;
+  margin: 0;
+  color: #14bbb1;
+}
+
+select {
+    border:0;
+    background:transparent;
+    height:26px;
+    border:2px solid #14bbb1;
+    float: right;
+    width:150px;
+    -webkit-appearance: none;
+    padding-left: 1em ;
+    font-family: Questrial;
+}
+
+/*flex for individual post <section>'s*/
+
+.refactorpost {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-first;
+  background-color: #3c4a5b;
+  margin: .25em 0;
+
+}
+
+.flex-vote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 6em;
+  background-color: #f9f9f9;
+}
+
+.flex-posttitle {
+  color: #14bbb1;
+  padding-left: 1em;
+}
+
+.flex-posttitle a {
+  color: #93d041;
+}
