@@ -69,11 +69,14 @@ select {
 }
 
 .voteup {
-  background: url("../Assets/svg/up_vote.svg") no-repeat;
   width: 2em;
   height: 1em;
   margin: .1em 0;
+  fill: #14bbb1;
+}
 
+.voteup:hover {
+  fill: #da6869;
 }
 
 .votedown {
@@ -81,6 +84,11 @@ select {
   width: 2em;
   height: 1em;
   margin: .1em 0;
+  fill: #14bbb1;
+}
+
+.votedown:hover {
+  fill: #da6869;
 }
 
 .votecounter {
