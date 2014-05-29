@@ -40,25 +40,10 @@ button, .button {
   text-align: center;
 }
 
-/*.button {
-  width: auto;
-  height: 1.7em;
-  padding: 0 1em;
-  font-size: 1em;
-  background-color: #14bbb1;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  border: .1em solid #14bbb1;
-  border-radius: .2em;
-  margin: 1em 0;
-}*/
-
 .flex-button{
   display: flex;
   justify-content: center;
 }
-
-
 
 .minheight {
  min-height: 30%;
@@ -156,4 +141,5 @@ vertical-align: bottom;
     display: none;
   }
 }
+
 /**/

@@ -101,7 +101,6 @@ select {
   justify-content: flex-first;
   background-color: #3c4a5b;
   margin: .25em 0;
-
 }
 
 .flex-posttitle {
@@ -360,4 +359,20 @@ border: 1px solid rgba(81, 203, 238, 1);
 .modal-footer {
   border-top: #eeeeee solid 1px;
   text-align: right;
+}
+
+
+/*Post View*/
+
+.postview .language-tag {
+  color: white;
+  font-size: .6em;
+  text-decoration: none;
+  padding: .15em .8em;
+}
+
+.originalpost-code {
+  height: 15em;
+  width: 100%;
+  background-color: #f9f9f9;
 }
