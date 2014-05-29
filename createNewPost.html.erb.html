@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+      <title></title>
+      <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/module.css">
+      <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/base.css">
+      <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/layout.css">
+      <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/typography.css">
+    </head>
+    <body>
+      <header class="flex-header">
+        <a href="#"><img class="logo" src="../Refactor-Style/Assets/svg/REFACTORS_LOGO.svg"></a>
+        <nav class="nav">
+          <form class="searchbox" action="">
+            <input class="search" type="text" placeholder="Search">
+            <svg  class="submit" type="submit" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px"  enable-background="new 0 0 19.28 19.28" xml:space="preserve">
+            <g>
+              <circle opacity="0.75" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" cx="7" cy="7" r="6.3"/>
+
+                <line opacity="0.75" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" x1="13.3" y1="13.3" x2="18.8" y2="18.8"/>
+            </g>
+            </svg>
+          </form>
+          <div class="account">
+            <a class="login" href="">Login |</a>
+            <a class="signup" href="">| Sign Up</a>
+          </div>
+        </nav>
+      </header>
+      <main class="flex-main">
+        <article class="flex-formcontainer">
+          <section class="newform">
+            <form class="new_post">
+              <div class="title-field">
+                <%= f.label :title %><br>
+                <%= f.text_field :title %>
+              </div>
+              <div class="code-field">
+                <%= f.label :body %><br>
+                <%= f.text_area :body %>
+              </div>
+              <div class="actions">
+                <%= f.submit %>
+              </div>
+            </form>
+          </section>
+        </article>
+      </main>
+    </body>
+</html>
+
+
