@@ -125,6 +125,17 @@ select {
   padding: .15em .8em;
 }
 
+.flex-posttitle h3 {
+  line-height: .2em;
+  margin-top: .5em;
+}
+
+.flex-posttitle h4 {
+  line-height: .2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: .4em;
+}
+
 /*This is the voting module--------------*/
 
 .flex-vote {
@@ -149,7 +160,6 @@ select {
 }
 
 .votedown {
-  background: url("../Assets/svg/down_vote.svg") no-repeat;
   width: 2em;
   height: 1em;
   margin: .1em 0;
@@ -314,6 +324,15 @@ border: 1px solid rgba(81, 203, 238, 1);
 
 .modal-registerbody {
   margin: auto;
+}
+
+.modal-registerbody a {
+  text-decoration: none;
+}
+
+.gitreg_button {
+  height: auto;
+  width: 12em;
 }
 
 .modal-loginbody form {
