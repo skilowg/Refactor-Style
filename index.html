@@ -2,7 +2,8 @@
 <html>
 <head>
   <title></title>
-  <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,800,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/reset.css">
   <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/module.css">
   <link rel="stylesheet" type="text/css" href="../Refactor-Style/css/base.css">
@@ -24,18 +25,18 @@
           </g>
           </svg>
         </form>
+        <a href="#" class="help"></a>
         <div class="account">
-          <a class="login" href="">Login |</a>
-          <a class="signup" href="">| Sign Up</a>
+          <a class="login" href="#modal-one">Login |</a>
+          <a class="signup" href="#modal-one">| Sign Up</a>
         </div>
       </nav>
   </header>
   <section class="hero">
     <h1>Refactors</h1>
-    <h3>Because every line of code is an opportunity for optimization.</h3>
-    <p>Refactors is a community of like-minded coders seeking to improve their code together.
-    <p>Post code to be refactored or browse code to refactor and help each other.</p>
-    <a href="#" class="button">Post a refactor</a>
+    <h4 id="herotext">Because every line of code is an opportunity for optimization.</h4>
+    <p>Refactors is a community of like-minded coders seeking to improve their code together.</br>Post code to be refactored or browse code to refactor and help each other.</p>
+    <a href="#modal-one" class="button">Post a refactor</a>
   </section>
   <main class="flex-main">
     <article>
@@ -175,11 +176,25 @@
             <a href="#" class="language-tag">Javascript</a>
           </div>
         </section>
-
-
       </div>
     </article>
   </main>
+  <!-- Modal starts here -->
+  <div class="modal" id="modal-one" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2>Modal in CSS?</h2>
+        <a href="#" class="btn-close" aria-hidden="true">x</a>
+      </div>
+      <div class="modal-body">
+        <p>One modal example here! :D</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="button">Nice!</a>
+    </div>
+  </div>
+  <!-- Modal ends here -->
+</div>
   <div class="minheight"></div>
   <footer>
     <p> Copyright Refactors 2014</p>
