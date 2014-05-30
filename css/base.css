@@ -176,3 +176,26 @@ vertical-align: bottom;
 }
 
 /**/
+
+ul {
+  list-style-type: circle;
+  margin: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li {
+  text-align: left;
+  font-size: .889em;
+}
+
+.help-hero article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.help-hero div {
+  width: 36%;
+}

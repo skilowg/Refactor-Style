@@ -42,14 +42,21 @@
 
 /*Hero section*/
 
-.hero {
+.hero, .help-hero {
   display: flex;
   justify-content: center;
   flex-flow: column nowrap;
   align-items: center;
-  background-color: #14bbb1;
   text-align: center;
+}
+
+.hero {
+  background-color: #14bbb1;
   height: 23em;
+}
+
+.help-hero h1 {
+  padding-top: 3em;
 }
 
 .hero h1 {
