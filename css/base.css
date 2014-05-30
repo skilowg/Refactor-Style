@@ -112,7 +112,7 @@ a.new-post-button  {
   height: 2.925em;
 }
 
-.logo {
+.refactors_logo {
   width: auto;
   height: 4.39em;
 }
@@ -154,7 +154,7 @@ vertical-align: bottom;
 
 .account {
   padding: 0 1em;
-  font-family:
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .login {
