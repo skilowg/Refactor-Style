@@ -13,7 +13,7 @@
 </head>
 <body>
   <header class="flex-header">
-      <a href="#"><img class="refactors_logo" src="../Refactor-Style/Assets/svg/REFACTORS_LOGO.svg"></a>
+      <a href="../Refactor-Style/index.html"><img class="refactors_logo" src="../Refactor-Style/Assets/svg/REFACTORS_LOGO.svg"></a>
       <nav class="nav">
         <form class="searchbox" action="">
           <input class="search" type="text" placeholder="Search">
@@ -25,14 +25,14 @@
           </g>
           </svg>
         </form>
-        <a href="#" class="help"></a>
+        <a href="../Refactor-Style/help.html" class="help"></a>
         <div class="account">
           <a class="login" href="#modal-one">Login |</a>
           <a class="signup" href="#modal-one">| Sign Up</a>
         </div>
       </nav>
   </header>
-  <section class="hero">
+  <section class="hero flex column center">
     <h1>Refactors</h1>
     <h4 id="herotext">Because every line of code is an opportunity for optimization.</h4>
     <p>Refactors is a community of like-minded coders seeking to improve their code together.</br>Post code to be refactored or browse code to refactor and help each other.</p>
@@ -56,8 +56,8 @@
         </div>
       </section>
       <div class="flex-postcontainer">
-        <section class="refactorpost">
-          <div class="flex-vote">
+        <section class="refactorpost flex row">
+          <div class="vote flex column center">
             <a href="#">
               <svg class="voteup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.279 13.502" enable-background="new 0 0 26.279 13.502" xml:space="preserve">
               <polygon points="0,13.5 13.1,0 26.3,13.5"/>
@@ -76,8 +76,8 @@
             <a href="#" class="language-tag">Javascript</a>
           </div>
         </section>
-        <section class="refactorpost">
-          <div class="flex-vote">
+        <section class="refactorpost flex row">
+          <div class="vote flex column center">
             <a href="#">
               <svg class="voteup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.279 13.502" enable-background="new 0 0 26.279 13.502" xml:space="preserve">
               <polygon points="0,13.5 13.1,0 26.3,13.5"/>
@@ -96,8 +96,8 @@
             <a href="#" class="language-tag">Javascript</a>
           </div>
         </section>
-        <section class="refactorpost">
-          <div class="flex-vote">
+        <section class="refactorpost flex row">
+          <div class="vote flex column center">
             <a href="#">
               <svg class="voteup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.279 13.502" enable-background="new 0 0 26.279 13.502" xml:space="preserve">
               <polygon points="0,13.5 13.1,0 26.3,13.5"/>
@@ -116,8 +116,8 @@
             <a href="#" class="language-tag">Javascript</a>
           </div>
         </section>
-        <section class="refactorpost">
-          <div class="flex-vote">
+        <section class="refactorpost flex row">
+          <div class="vote flex column center">
             <a href="#">
               <svg class="voteup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.279 13.502" enable-background="new 0 0 26.279 13.502" xml:space="preserve">
               <polygon points="0,13.5 13.1,0 26.3,13.5"/>
@@ -136,8 +136,8 @@
             <a href="#" class="language-tag">Javascript</a>
           </div>
         </section>
-        <section class="refactorpost">
-          <div class="flex-vote">
+        <section class="refactorpost flex row">
+          <div class="vote flex column center">
             <a href="#">
               <svg class="voteup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.279 13.502" enable-background="new 0 0 26.279 13.502" xml:space="preserve">
               <polygon points="0,13.5 13.1,0 26.3,13.5"/>
@@ -156,8 +156,8 @@
             <a href="#" class="language-tag">Javascript</a>
           </div>
         </section>
-        <section class="refactorpost">
-          <div class="flex-vote">
+        <section class="refactorpost flex row">
+          <div class="vote flex column center">
             <a href="#">
               <svg class="voteup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.279 13.502" enable-background="new 0 0 26.279 13.502" xml:space="preserve">
               <polygon points="0,13.5 13.1,0 26.3,13.5"/>
@@ -181,10 +181,10 @@
   </main>
   <!-- Modal starts here -->
   <div class="modal" id="modal-one" aria-hidden="true">
-    <div class="modal-dialog ">
-      <div class="modal-login">
-        <div class="modal-loginbody">
-          <form>
+    <div class="modal-dialog flex row">
+      <div class="modal-login flex column">
+        <div class="modal-login">
+          <form class="flex column">
             <input type="name" placeholder="Name">
             <input type="email" placeholder="Email">
             <input type="password" placeholder="Password">
@@ -194,7 +194,7 @@
       </div>
       <div class="modal-register">
         <a href="#" class="btn-close" aria-hidden="true">x</a>
-        <div class="modal-registerbody">
+        <div class="flex column center">
           <a href="">
             <svg class="gitreg_button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 325 92" enable-background="new 0 0 325 92" xml:space="preserve">
               <path fill="#51B5AF" d="M325 84.8c0 3.976-3.224 7.2-7.2 7.2H7.2C3.224 92 0 88.8 0 84.8V7.2C0 3.2 3.2 0 7.2 0h310.6 c3.976 0 7.2 3.2 7.2 7.2V84.8z"/>

@@ -36,6 +36,10 @@ footer p {
   margin: 0 1em;
 }
 
+form input {
+  font-size: 1em;
+}
+
 button, .button {
   height: 1.7em;
   padding: .15em 1em;

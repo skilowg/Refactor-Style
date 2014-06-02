@@ -12,7 +12,7 @@
     </head>
     <body>
       <header class="flex-header">
-          <a href="#"><img class="refactors_logo" src="../Refactor-Style/Assets/svg/REFACTORS_LOGO.svg"></a>
+          <a href="../Refactor-Style/index.html"><img class="refactors_logo" src="../Refactor-Style/Assets/svg/REFACTORS_LOGO.svg"></a>
           <nav class="nav">
             <form class="searchbox" action="">
               <input class="search" type="text" placeholder="Search">
@@ -24,7 +24,7 @@
                 </g>
               </svg>
             </form>
-            <a href="#" class="help"></a>
+            <a href="../Refactor-Style/help.html" class="help"></a>
             <div class="account">
               <a class="login" href="#modal-one">Login |</a>
               <a class="signup" href="#modal-one">| Sign Up</a>
@@ -34,15 +34,15 @@
       <main class="flex-main">
         <article class="flex-formcontainer">
           <h2>Post a Refactor</h2>
-          <section class="new-form">
+          <section class="new-form flex column">
             <form class="new-post">
-              <div class="title-field">
+              <div class="flex column">
                 <label class="user-posttitle">Title:</label>
                 <input type="text" class="user-posttitleinput" placeholder="Name your Refactor">
                 <!--<%= f.label :title %><br>
                 <%= f.text_field :title %> -->
               </div>
-              <div class="post-filter">
+              <div class="post-filter flex">
                 <select name="State" id="input7">
                   <option value="Choice" class="choice">Choose a language</option>
                   <option value="C#">C#</option>
